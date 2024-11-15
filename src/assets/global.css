@@ -1,0 +1,11 @@
+body {
+    margin: auto;
+    background-size: cover;
+
+
+}
+
+html {
+    max-width: 100%;
+    min-width: 0;
+}
