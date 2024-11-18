@@ -8,7 +8,7 @@ export default {
     props: {
         logoSrc: {
             type: String,
-            default: require('@/assets/dronelogo.jpg') // Adjust the path as needed
+            default: require('@/assets/dronelogo.jpg')
         },
         altText: {
             type: String,

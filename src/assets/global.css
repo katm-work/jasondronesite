@@ -1,11 +1,29 @@
-body {
-    margin: auto;
-    background-size: cover;
-
-
+h3 {
+    text-decoration: underline;
 }
 
-html {
-    max-width: 100%;
-    min-width: 0;
+h2 {
+    display: flex;
+    text-align: left;
+    justify-content: Left;
+    width: max-content;
+    margin: 50px auto 50px 30%;
+    padding: 0 10px;
+    border-radius: 7px;
+    background-color: #8AA8A1;
+    border-bottom: 3px solid #EDF2F4;
+    border-right: 2px solid #EDF2F4;
+    border-top: 1px solid #EDF2F4;
+    border-left: 1px solid #EDF2F4;
+    background-size: cover;
+    color: #EDF2F4;
+    text-shadow: 2px 2px #2c3e50;
+}
+
+h1 {
+    display: flex;
+    width: 70%;
+    justify-content: left;
+    align-items: center;
+    text-transform: uppercase;
 }

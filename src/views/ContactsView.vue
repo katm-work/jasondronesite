@@ -1,7 +1,7 @@
 <template>
     <div class="contact-page">
-        <div class="contact-header">
-            <h1>Contact Us</h1>
+        <div>
+            <h2>Contact Us</h2>
         </div>
         <section class="contact-info">
             <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
@@ -13,18 +13,6 @@
 </template>
 
 <style scoped>
-.contact-header {
-    display: flex;
-    width: 250px;
-    border: none;
-    border-radius: 5px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #EDF2F4;
-    background-color: #2c3e50;
-}
 
 .contact-page {
     display: flex;
@@ -34,5 +22,9 @@
     align-items: center;
     padding: 20px;
 
+}
+
+a {
+    text-shadow: 0 0 #2c3e50;
 }
 </style>
